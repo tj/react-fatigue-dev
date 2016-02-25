@@ -1,12 +1,12 @@
 
-# Fatigue Dev
+# React Fatigue Dev
 
-Module of modules for making modules made from modules, aka it's a module that has some deps so you don't have to define the same things over and over and over and over and over and over.
+Module of modules and Makefile to reduce the amount of boilerplate when developing React components.
 
 ## Installation
 
 ```
-$ npm install tj/fatigue-dev
+$ npm install tj/react-fatigue-dev
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ $ npm install tj/fatigue-dev
 Add this module as a dev dependency, and add the following to your project's Makefile:
 
 ```Makefile
-include node_modules/fatigue-dev/Makefile
+include node_modules/react-fatigue-dev/Makefile
 ```
 
 You'll now have a number of targets available, see `make help` for details. You may customize the default behaviour
@@ -22,7 +22,7 @@ by overriding the Makefile variables, view ./Makefile to see the defaults. For e
 
 ```Makefile
 SERVER_FLAGS = -p 8000 example
-include node_modules/fatigue-dev/Makefile
+include node_modules/react-fatigue-dev/Makefile
 ```
 
 ## Includes
