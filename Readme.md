@@ -17,7 +17,13 @@ Add this module as a dev dependency, and add the following to your project's Mak
 include node_modules/fatigue-dev/Makefile
 ```
 
-You'll now have a number of targets available, see `make help` for details.
+You'll now have a number of targets available, see `make help` for details. You may customize the default behaviour
+by overriding the Makefile variables, view ./Makefile to see the defaults. For example use port :8000 instead of :3000:
+
+```Makefile
+SERVER_FLAGS = -p 8000 example
+include node_modules/fatigue-dev/Makefile
+```
 
 ## Includes
 
