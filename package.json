@@ -8,12 +8,6 @@
   ],
   "author": "TJ Holowaychuk <tj@tjholowaychuk.com>",
   "license": "MIT",
-  "scripts": {
-    "build": "babel -d build index.js",
-    "start": "npm run serve & npm run watch",
-    "watch": "watchify example/index.js -p browserify-hmr -o example/bundle.js -dv",
-    "serve": "ecstatic -p 3000 example"
-  },
   "browserify": {
     "transform": [
       "babelify"
