@@ -8,6 +8,18 @@
   ],
   "author": "TJ Holowaychuk <tj@tjholowaychuk.com>",
   "license": "MIT",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "babel -d build index.js",
+    "start": "npm run serve & npm run watch",
+    "watch": "watchify example/index.js -p browserify-hmr -o example/bundle.js -dv",
+    "serve": "ecstatic -p 3000 example"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
   "devDependencies": {
     "babel-cli": "^6.5",
     "babel-preset-es2015": "^6.5.0",
