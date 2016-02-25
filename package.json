@@ -19,7 +19,7 @@
       "babelify"
     ]
   },
-  "devDependencies": {
+  "dependencies": {
     "babel-cli": "^6.5",
     "babel-preset-es2015": "^6.5.0",
     "babel-preset-react": "^6.5.0",
