@@ -18,10 +18,13 @@ include node_modules/react-fatigue-dev/Makefile
 ```
 
 You'll now have a number of targets available, see `make help` for details. You may customize the default behaviour
-by overriding the Makefile variables, view ./Makefile to see the defaults. For example use port :8000 instead of :3000:
+by overriding the Makefile variables, view ./Makefile to see the defaults.
+
+For example use port :8000 instead of :3000, and instead of serving ./example, serve ./test:
+
 
 ```Makefile
-SERVER_FLAGS = -p 8000 example
+SERVER_FLAGS = -p 8000 ./test
 include node_modules/react-fatigue-dev/Makefile
 ```
 
@@ -38,6 +41,10 @@ include node_modules/react-fatigue-dev/Makefile
 - react
 - react-dom
 - watchify
+
+## Links
+
+- [Example project](https://github.com/tj/react-click-outside) using react-fatigue-dev
 
 ## Badges
 
