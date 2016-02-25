@@ -9,6 +9,16 @@ Module of modules for making modules made from modules, aka it's a module that h
 $ npm install tj/fatigue-dev
 ```
 
+## Usage
+
+Add this module as a dev dependency, and add the following to your project's Makefile:
+
+```Makefile
+include node_modules/fatigue-dev/Makefile
+```
+
+You'll now have a number of targets available, see `make help` for details.
+
 ## Includes
 
 - babel-cli
