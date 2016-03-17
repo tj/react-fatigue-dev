@@ -28,8 +28,11 @@ SERVER_FLAGS = -p 8000 ./test
 include node_modules/react-fatigue-dev/Makefile
 ```
 
+Check out [react-click-outside](https://github.com/tj/react-click-outside) for a full example.
+
 ## Includes
 
+- fatique
 - babel-cli
 - babel-preset-es2015
 - babel-preset-react
@@ -41,6 +44,7 @@ include node_modules/react-fatigue-dev/Makefile
 - react
 - react-dom
 - watchify
+- other crazy shit, wtf
 
 ## Links
 
