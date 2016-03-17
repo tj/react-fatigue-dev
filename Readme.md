@@ -32,7 +32,7 @@ Check out [react-click-outside](https://github.com/tj/react-click-outside) for a
 
 ## Includes
 
-- fatique
+- fatigue
 - babel-cli
 - babel-preset-es2015
 - babel-preset-react
