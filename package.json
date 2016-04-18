@@ -8,6 +8,9 @@
   ],
   "author": "TJ Holowaychuk <tj@tjholowaychuk.com>",
   "license": "MIT",
+  "engines": {
+    "node": ">=5.0.0"
+  },
   "browserify": {
     "transform": [
       "babelify"
