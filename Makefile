@@ -14,6 +14,7 @@ help:
 	@echo "  \033[34mstart\033[0m – start dev server on :3000 with hot module replacement"
 	@echo
 
+build: export NODE_ENV = production
 build:
 	@echo "  $(P) build"
 	@$(BIN_DIR)/babel $(BUILD_FLAGS) -d $(BUILD_DIR) index.js
