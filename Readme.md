@@ -54,6 +54,7 @@ Check out [react-click-outside](https://github.com/tj/react-click-outside) for a
 
 ![](https://img.shields.io/badge/license-MIT-blue.svg)
 ![](https://img.shields.io/badge/status-stable-green.svg)
+[![](http://apex.sh/images/badge.svg)](https://apex.sh/ping/)
 
 ---
 
