@@ -48,6 +48,7 @@ Check out [react-click-outside](https://github.com/tj/react-click-outside) for a
 
 ## Links
 
+- [Boilerplate](https://github.com/tj/react-fatigue-dev-boiler) for getting started
 - [Example project](https://github.com/tj/react-click-outside) using react-fatigue-dev
 
 ## Badges
