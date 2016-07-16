@@ -23,8 +23,8 @@
     "browserify": "^13.0.0",
     "browserify-hmr": "^0.3.1",
     "ecstatic": "^1.4.0",
-    "react": "^0.14.3",
-    "react-dom": "^0.14.3",
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1",
     "react-transform": "0.0.3",
     "react-transform-hmr": "^1.0.4",
     "watchify": "^3.7.0"
