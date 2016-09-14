@@ -46,6 +46,32 @@ Check out [react-click-outside](https://github.com/tj/react-click-outside) for a
 - watchify
 - other crazy shit, wtf
 
+## .babelrc
+
+Example babelrc:
+
+```
+{
+  "presets": ["es2015", "react", "stage-0"],
+  "plugins": [],
+  "env": {
+    "development": {
+      "plugins": [
+        ["react-transform", {
+          "transforms": [{
+            "transform": "react-transform-hmr",
+            "imports": ["react"],
+            "locals": ["module"]
+          }]
+        }],
+        "transform-runtime",
+        "transform-decorators-legacy"
+      ]
+    }
+  }
+}
+```
+
 ## Links
 
 - [Boilerplate](https://github.com/tj/react-fatigue-dev-boiler) for getting started
