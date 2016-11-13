@@ -1,6 +1,7 @@
 
 BIN_DIR ?= node_modules/.bin
 BUILD_DIR ?= build
+SRC ?= index.js
 
 BUILD_FLAGS ?=
 SERVER_FLAGS ?= -p 3000 example
@@ -17,7 +18,7 @@ help:
 build: export NODE_ENV = production
 build:
 	@echo "  $(P) build"
-	@$(BIN_DIR)/babel $(BUILD_FLAGS) -d $(BUILD_DIR) index.js
+	@$(BIN_DIR)/babel $(BUILD_FLAGS) -d $(BUILD_DIR) $(SRC)
 
 start:
 	@$(MAKE) serve & $(MAKE) watch
